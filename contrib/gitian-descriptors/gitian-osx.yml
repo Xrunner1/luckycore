@@ -2,7 +2,7 @@
 name: "luckybit-osx-0.12"
 enable_cache: true
 suites:
-- "trusty"
+- "fc30"
 architectures:
 - "amd64"
 packages: 
@@ -21,9 +21,9 @@ packages:
 - "libbz2-dev"
 - "ca-certificates"
 - "python"
-reference_datetime: "2017-01-01 00:00:00"
+reference_datetime: "2019-01-01 00:00:00"
 remotes:
-- "url": "https://github.com/luckybitcoin/luckybit.git"
+- "url": "https://github.com/Xrunner1/luckycore.git"
   "dir": "luckybit"
 files:
 - "MacOSX10.9.sdk.tar.gz"

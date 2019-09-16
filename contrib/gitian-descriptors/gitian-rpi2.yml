@@ -2,7 +2,7 @@
 name: "luckybit-raspberry-0.12"
 enable_cache: true
 suites:
-- "precise"
+- "fc30"
 architectures:
 - "amd64"
 packages:
@@ -15,9 +15,9 @@ packages:
 - "faketime"
 - "bsdmainutils"
 - "binutils-gold"
-reference_datetime: "2017-01-01 00:00:00"
+reference_datetime: "2019-01-01 00:00:00"
 remotes:
-- "url": "https://github.com/luckybitcoin/luckybit.git"
+- "url": "https://github.com/Xrunner1/luckycore.git"
   "dir": "luckybit"
 files:
 - "raspberrypi-tools.tar.gz"
