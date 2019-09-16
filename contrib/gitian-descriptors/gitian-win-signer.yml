@@ -1,7 +1,7 @@
 ---
 name: "bitcoin-win-signer"
 suites:
-- "fc30"
+- "trusty"
 architectures:
 - "amd64"
 packages:
