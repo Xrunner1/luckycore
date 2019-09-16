@@ -1,8 +1,8 @@
 ---
-name: "luckybit-linux-0.12"
+name: "luckybit-linux 3.13"
 enable_cache: true
 suites:
-- "fc30"
+- "trusty"
 architectures:
 - "amd64"
 packages:
