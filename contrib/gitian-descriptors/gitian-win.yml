@@ -2,7 +2,7 @@
 name: "luckybit-win-0.12"
 enable_cache: true
 suites:
-- "fc30"
+- "trusty"
 architectures:
 - "amd64"
 packages: 
