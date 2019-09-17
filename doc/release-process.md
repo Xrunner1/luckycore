@@ -1,7 +1,7 @@
 Release Process
 ====================
 
-* Update translations, see [translation_process.md](https://github.com/luckybitcoin/luckybit/blob/master/doc/translation_process.md#syncing-with-transifex)
+* Update translations, see [translation_process.md](https://github.com/Xrunner1/luckycore/blob/master/doc/translation_process.md#syncing-with-transifex)
 * Update hardcoded [seeds](/contrib/seeds)
 
 * * *
@@ -10,10 +10,10 @@ Release Process
 Check out the source code in the following directory hierarchy.
 
 	cd /path/to/your/toplevel/build
-	git clone https://github.com/luckybitcoin/gitian.sigs.git
-	git clone https://github.com/luckybitcoin/luckybit-detached-sigs.git
+	git clone https://github.com/Xrunner1/gitian.sigs.git
+	git clone https://github.com/Xrunner1/bitcoin-detached-sigs.git
 	git clone https://github.com/devrandom/gitian-builder.git
-	git clone https://github.com/luckybitcoin/luckybit.git
+	git clone https://github.com/Xrunner1/luckycore.git
 
 ###LuckyBit Core maintainers/release engineers, update (commit) version in sources
 
@@ -139,7 +139,7 @@ Commit your signature to gitian.sigs:
 
   Wait for Windows/OS X detached signatures:
 	Once the Windows/OS X builds each have 3 matching signatures, they will be signed with their respective release keys.
-	Detached signatures will then be committed to the [luckybit-detached-sigs](https://github.com/luckybitcoin/luckybit-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
+	Detached signatures will then be committed to the [luckybit-detached-sigs](https://github.com/Xrunner1/luckycore-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
 
   Create (and optionally verify) the signed OS X binary:
 
@@ -188,11 +188,11 @@ Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spur
 
 - Announce the release:
 
-  - Release on LuckyBit forum: https://www.luckybit.org/forum/topic/official-announcements.54/
+  - Release on LuckyBit forum: https://www.luckybitcoin.org/
 
   - LuckyBit-development mailing list
 
-  - Update title of #luckybitcoin on Freenode IRC
+  - Update title of #Xrunner1 on Discord https://discord.gg/bya22Ah
 
   - Optionally reddit /r/LuckyBitpay, ... but this will usually sort out itself
 
