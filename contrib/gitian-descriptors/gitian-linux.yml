@@ -1,5 +1,5 @@
 ---
-name: "luckybit"
+name: "luckybit-linux-0.12"
 enable_cache: true
 suites:
 - "trusty"
